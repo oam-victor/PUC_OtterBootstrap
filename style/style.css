@@ -1,0 +1,144 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background-color: rgba(38, 152, 172, 0.2);
+}
+
+nav {
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 1px 5px 1px;
+          box-shadow: 0px 1px 5px 1px;
+  height: 9vh;
+}
+
+nav ul {
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: base;
+      -ms-flex-pack: base;
+          justify-content: base;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+}
+
+nav ul span:nth-child(1) {
+  font-size: 1.5rem;
+  color: #139c7cdd;
+}
+
+nav ul span:nth-child(2) {
+  font-size: 1.2rem;
+  color: #139c7cdd;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+}
+
+nav ul li {
+  display: block;
+  margin: auto 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.2rem;
+  color: #139c7cdd;
+}
+
+nav ul li a:hover {
+  font-size: 1.25rem;
+  opacity: 1;
+  color: black;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.dropdown-item {
+  margin: 0;
+  color: black !important;
+}
+
+.dropdown-menu {
+  background-color: #ffffff !important;
+}
+
+main {
+  height: 100%;
+}
+
+main #theCarousel #carouselExampleFade {
+  position: relative;
+  top: 1rem;
+  height: 50vh;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #4a4646f4;
+  opacity: 1;
+  -webkit-box-shadow: 0px 1px 5px 1px;
+          box-shadow: 0px 1px 5px 1px;
+}
+
+.carousel-item {
+  height: 50vh;
+}
+
+.carousel-item img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  padding-bottom: 1rem;
+  position: relative;
+  top: 2rem;
+}
+
+#cards .card {
+  -webkit-box-shadow: 0px 1px 5px 1px;
+          box-shadow: 0px 1px 5px 1px;
+}
+
+#cards img {
+  height: 10rem;
+}
+
+#cards p {
+  text-align: justify;
+}
+
+#cards a {
+  text-decoration: none;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #139c7cdd;
+}
+
+#cards a:hover {
+  font-size: 1.25rem;
+  opacity: 1;
+  color: black;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+/*# sourceMappingURL=style.css.map */
